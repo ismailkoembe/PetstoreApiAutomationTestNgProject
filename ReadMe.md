@@ -55,7 +55,8 @@ If you wish a test case to report results to TestRail, the following should be c
 - Build -> Top level Maven targets -> Goals: clean install -DtestngFile=/{Jenkins work path}/{job name}/src/test/Resources/{XML to run}.xml -DmyEnv={Env}
 
 
-# API Product Test Strategy: The main objectives
+# API Product Test Strategy: 
+## The main objectives
 - to ensure that the implementation is working as specified according to the requirements specification.
 - to ensure that the implementation is working correctly as expected — no bugs.
 - to prevent regressions between code merges and releases.
