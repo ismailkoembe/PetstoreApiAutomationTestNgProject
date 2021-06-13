@@ -48,7 +48,7 @@ If you wish a test case to report results to TestRail, the following should be c
 
 # Running from Jenkins
 - Source Code Management - Git
-- Repository URL - https://github.com/......
+- Repository URL - https://github.com/ismailkoembe/PetstoreApiAutomationTestNgProject.git
 - Credentials - configure for the relevant user, can be done via the job configuration
 - Branch Specifier - */master
 - Bindings -> Secret Text -> Variable: environment, token, TestRail credentials (in future) 
