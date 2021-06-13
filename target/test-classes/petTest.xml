@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1">
+    <listeners>
+        <!--        <listener class-name="Listeners.TrListener"></listener>-->
+    </listeners>
+    <parameter name="myEnv" value="${myEnv}"/>
+<!--    <parameter name="token" value="${token}"
+    TODO :
+    for this project any type of Authorization is available.
+    In future this feature can be interact with TestRail
+
+    <parameter name="masterPlan" value="${masterPlan}"/>
+    <parameter name="testRailUser" value="${testRailUser}"/>
+    <parameter name="testRailApiKey" value="${testRailApiKey}"/>
+/>-->
+
+    <test name="CI integration demo">
+        <classes>
+            <class name="PetTest"/>
+        </classes>
+    </test>
+</suite>

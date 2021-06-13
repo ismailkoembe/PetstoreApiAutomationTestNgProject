@@ -1,0 +1,7 @@
+id,username,firstName,lastName,email,password,phone,userStatus
+1001,KimberlyRuiz,Kimberly,Ruiz,KimberlyRuiz@example.com,qweasdzxc,12345,1
+1002,KyleBruce,Kyle,Bruce,KyleBruce@example.com,qweasdzxc,2225577,2
+1003,DonnaSherman,Donna,Sherman,DonnaSherman@example.com,qweasdzxc,155845,3
+1004,ElizabethBrock,Elizabeth,Brock,ElizabethBrock@example.com,qweasdzxc,124567,1
+1005,KathleenMoore,Kathleen,Moore,KathleenMoore@example.com,qweasdzxc,225588,2
+
