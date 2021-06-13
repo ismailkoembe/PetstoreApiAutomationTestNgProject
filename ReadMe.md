@@ -47,7 +47,6 @@ If you wish a test case to report results to TestRail, the following should be c
 
 
 # Running from Jenkins
-## This works locally, but is not to the company's Jenkins standards
 - Source Code Management - Git
 - Repository URL - https://github.com/......
 - Credentials - configure for the relevant user, can be done via the job configuration
@@ -57,25 +56,25 @@ If you wish a test case to report results to TestRail, the following should be c
 
 
 # API Product Test Strategy: The main objectives
-● to ensure that the implementation is working as specified according to the requirements specification.
-● to ensure that the implementation is working correctly as expected — no bugs.
-● to prevent regressions between code merges and releases.
+- to ensure that the implementation is working as specified according to the requirements specification.
+- to ensure that the implementation is working correctly as expected — no bugs.
+- to prevent regressions between code merges and releases.
 # Test scenario categories
-● Basic positive tests
+- Basic positive tests
    1. Response is a well-formed JSON object
    2. Response structure is according to data model 
       (schema validation: field names and field types are as expected.
-● Extended positive testing with optional parameters
-● Negative testing with valid input
-● Negative testing with invalid input
-● Destructive testing (N/A for this project)
-● Security, authorization, and permission tests (N/A for this project)
+- Extended positive testing with optional parameters
+- Negative testing with valid input
+- Negative testing with invalid input
+- Destructive testing (N/A for this project)
+- Security, authorization, and permission tests (N/A for this project)
     1. Positive: ensure API responds to correct authorization via all agreed auth
       methods – Bearer token, etc. – as defined in spec
     2. Negative: ensure API refuses all unauthorized calls
-● Performance (N/A for this project)
+- Performance (N/A for this project)
     1. Check API response time, latency (in isolation and under load).  
 #Tools
-● Postman 
-● Adding API Integration tests with the programming language in use,
+- Postman 
+- Adding API Integration tests with the programming language in use,
 here in Java using TestNG Library.
